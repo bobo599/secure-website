@@ -1,0 +1,42 @@
+Download latest release unzip and copy secure_website directory, secure_website.php on to GetSimple plugins directory
+
+From GetSimple control panel in plugins section enable and configure the plugin
+
+
+Header Security section basic settings (must be tested in your site):
+
+
+Strict Transport Security: max-age=31536000; includeSubDomains; preload
+
+X XSS Protection: 1; mode=block
+
+X Frame Options: SAMEORIGIN
+
+X Content Type Options: nosniff
+
+X Powered By: NULL
+
+Referrer Policy: strict-origin
+
+
+Content Securiry Policy section advanced settings (this configuration must be tested, if the website is not working properly, leave the fields empty, and enter the data after reading documentation for the Content Security policy):
+
+default-src: 'none'
+
+script-src (to enable nonce value add 'nonce'): 'nonce' 'strict-dynamic'
+
+style-src (to enable nonce value add 'nonce'): 'nonce'
+
+connect-src: 'self' https:
+
+img-src: 'self' https:
+
+object-src: 'none'
+
+frame-src (if load google maps embedded): https://www.google.com/maps/d/embed
+
+frame-ancestors (if load google maps embedded): https://www.google.com/maps/d/embed
+
+form-action: 'self'
+
+base-uri: 'self'
