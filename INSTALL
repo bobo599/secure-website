@@ -3,7 +3,7 @@ Download latest release unzip and copy secure_website directory, secure_website.
 From GetSimple control panel in plugins section enable and configure the plugin
 
 
-Header Security section basic settings (must be tested in your site):
+Header Security section basic settings (configuration example):
 
 
 Strict Transport Security: max-age=31536000; includeSubDomains; preload
@@ -19,7 +19,7 @@ X Powered By: NULL
 Referrer Policy: strict-origin
 
 
-Content Securiry Policy section advanced settings (this configuration must be tested, if the website is not working properly, leave the fields empty, and enter the data after reading documentation for the Content Security policy):
+Content Securiry Policy section advanced settings (configuration example):
 
 default-src: 'none'
 
