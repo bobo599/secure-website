@@ -72,6 +72,7 @@ function secure_header()
   if ($r7 != '') { header("Content-Security-Policy: $r7"); }
 }
 
+
 //function security_headers()
 //{
 //	global $random;
