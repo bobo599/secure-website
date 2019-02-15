@@ -1,6 +1,5 @@
 <?php
 
-
 if ($secure_website_settings['Load_CSS'] == 'Enabled')
 {
 add_action( 'theme-header', 'replaceL' );
