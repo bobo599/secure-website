@@ -3,6 +3,19 @@ Download latest release unzip and copy secure_website directory, secure_website.
 From GetSimple control panel in plugins section enable and configure the plugin
 
 
+
+if enable load css first delete from template all your_template/css_folder/ stylesheet link
+
+external css resource can be loaded from the module and if you want calculate subresource integrity sha-384 hash  for external css resource enable SRI Integrity, the external css link must be deleted from your template and added in external css resource section
+
+
+
+if enable load script first delete from template all your_template/javascript_folder/ script source 
+
+external javascript resource can be loaded from the module and if you want calculate subresource integrity sha-384 hash  for external javascript resource enable SRI Integrity, the external javascript src link must be deleted from your template and added in External JavaScript Resource section
+
+
+
 Header Security section basic settings (configuration example):
 
 
