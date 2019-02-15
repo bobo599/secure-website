@@ -1,5 +1,5 @@
 # secure-website
-content security plugin for GetSimple CMS
+secure headers and content security policy plugin for GetSimple CMS
 
 
 this plugin help to configure:
