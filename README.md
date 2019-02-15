@@ -28,7 +28,7 @@ If enabled load all css and/or js files from template css/js directory and add i
 Load resources css or javascript from external url and add if enabled random code as 'nonce', if enabled SRI integrity calculate sha-384 hash and add integrity attribute
 
 
-if enabled add cookie flag httponly and secure
+if Secure cookie enabled add cookie flag httponly and secure
 
 
-if enabled force https
+if Force HTTPS enabled force https for all site url
