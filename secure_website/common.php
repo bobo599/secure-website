@@ -12,7 +12,6 @@ function randString($length = 24) {
 }
 $random = randString();
 
-
 function hashSRI() {
     //sri start
     $input = file_get_contents($ext_resource);
