@@ -8,7 +8,7 @@ $secure_website_data_file = GSDATAOTHERPATH . 'SecureWebsiteSettings.xml';
 register_plugin(
     $thisfile,
     'Protect your website',
-    '0.1',
+    '1.0',
     'ITLOGE',
     'https://itloge.it/',
     'Protect your website',
